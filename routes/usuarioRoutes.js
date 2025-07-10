@@ -8,3 +8,4 @@ router.put('/:id', authMiddleware, usuarioController.updateUsuario);
 router.delete('/:id', authMiddleware, usuarioController.deleteUsuario);
 
 module.exports = router;
+//

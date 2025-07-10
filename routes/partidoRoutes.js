@@ -8,3 +8,4 @@ router.put('/:id', authMiddleware, partidoController.actualizarResultado);
 router.get('/torneo/:id', partidoController.listarPartidosPorTorneo);
 
 module.exports = router;
+//

@@ -9,3 +9,4 @@ router.post('/:id/equipos', authMiddleware, torneoController.agregarEquipos);
 router.get('/:id/tabla', torneoController.obtenerTablaPosiciones);
 
 module.exports = router;
+//

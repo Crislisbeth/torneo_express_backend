@@ -42,3 +42,4 @@ exports.obtenerTablaPosiciones = async (req, res) => {
   // Aquí iría la lógica para calcular la tabla (no implementada en este ejemplo)
   res.json({ msg: 'Funcionalidad pendiente de implementación' });
 };
+//

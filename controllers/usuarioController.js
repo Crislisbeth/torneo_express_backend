@@ -11,7 +11,7 @@ exports.getUsuario = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-
+//
 exports.updateUsuario = async (req, res) => {
   const { id } = req.params;
   const { nombre, email, password } = req.body;
